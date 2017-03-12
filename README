@@ -1,0 +1,8 @@
+Budget calculates a fortnightly budget passed off of a list of expenses. These expenses are stored as a JSON file managed via tinyDB.
+
+An expense should have the following fields:
+    'title' : title of the expense.
+    'cost' : cost of the expense
+    'priority' : how important the expense is. This should be a whole number between 0 (least important) and 9 (most important)
+    'interval' : how often this should be paid. Should be a string with a value of 'weekly', 'fortnightly', or 'monthly'
+    
